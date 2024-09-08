@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FinSecure - Secure Your Future</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="finsecure logo" class="logo">
+            
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <section id="hero">
+            <h2>Securing Your Financial Future</h2>
+            <p>At FinSecure, we provide reliable financial solutions to ensure your future is secure.</p>
+            <button onclick="learnMore()">Learn More</button>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="info-section">
+            <h2>About Us</h2>
+            <p>FinSecure is a leading financial services company focused on providing expert solutions in wealth management, insurance, and investments.</p>
+        </section>
+        <section id="team" class="info-section">
+            <h2>Meet Our Founder</h2>
+            <div class="team-grid">
+                <div class="founder">
+                    <!-- Founder Image -->
+                    <img src="founder.jpeg" alt="Founder Image" class="founder-img">
+                    <h3>Rajiv Mehta</h3>
+                    <p>CEO of FinSecure</p>
+                    <p>He has over 15 years of experience in the fintech space. Before founding FinSecure, he led major financial institutions in adopting new technologies, making him a recognized thought leader in the field of digital payments.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section -->
+        <section id="services" class="info-section">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Secure payments</li>
+                <li>Investment Planning</li>
+                <li>Insurance Services</li>
+                <li>Tax Advisory</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="info-section">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 FinSecure. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
