@@ -17,3 +17,6 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 function learnMore() {
     alert("Thank you for your interest! Visit our services section to learn more.");
 }
+if (window.location.pathname === '/cctv') {
+  window.location.href = '/cctv.html';
+}
